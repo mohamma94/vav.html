@@ -38,7 +38,7 @@ form.example button {
 
 form.example button:hover {
   background: green;
-  
+
 }
 
 form.example::after {
@@ -50,16 +50,16 @@ form.example::after {
         .navbar{
             background-color: black;
             border-radius: 30px;
-            
+
         }
         .navbar ul{
             overflow: auto;
         }
         .navbar li{
             float:left;
-            list-style: none; 
+            list-style: none;
             margin: 13px 20px;
-            
+
         }
         .navbar li a{
             padding: 3px 3px;
@@ -80,7 +80,7 @@ form.example::after {
             padding: 3px 17px;
             width: 129px;
         }
-        
+
     </style>
 </head>
 
@@ -92,17 +92,27 @@ form.example::after {
                 <li><a href="#">Home</a></li>
                 <li><a href="#">link</a></li>
                 <li><a href="#">Contact us</a></li>
+                <li><select class="Dropdown" >
+                  <option value="volvo">link1</option>
+                  <option value="saab">link2</option>
+                  <option value="mercedes">link3</option>
+
+                </select></li>
+               <li>
+                <<button type="button" name="Dropdown" disabled > Dropdown</button>
+               </li>
+
                 <form class="example" action="/action_page.php">
                   <input type="text" placeholder="Search.." name="search">
                   <button type="submit"><i class="fa fa-search">search</i></button>
-                                    
+
                 </form>
-                
+
                 <button id="hamburger-menu">
                   <nav id="sidebar-menu">
                   </nav>
                 </button>
-                
+
 
             </ul>
         </nav>
@@ -110,4 +120,3 @@ form.example::after {
 </body>
 
 </html>
-
